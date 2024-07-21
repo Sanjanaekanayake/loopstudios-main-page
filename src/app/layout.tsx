@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import "./globals.css";
+import { Inter, Alata, Josefin_Sans } from "next/font/google";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./globals.scss";
+import "font-awesome/css/font-awesome.min.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,6 +18,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <style></style>
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );

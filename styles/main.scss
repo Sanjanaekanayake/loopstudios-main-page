@@ -1,0 +1,123 @@
+.custom-container {
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 155px;
+  padding-left: 160px;
+}
+
+.image-wrap {
+  height: 70vh;
+  width: 100%;
+  background-position: top;
+  background-image: url("../public/images/desktop/image-hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.navbar {
+  padding-top: 3.5rem;
+}
+
+.hero-title {
+  text-transform: uppercase;
+  color: white;
+  border: 3px solid #ddd;
+  position: absolute;
+  top: 25%;
+  padding: 1.5rem 2.5rem;
+  width: 41rem;
+  font-size: 4.5rem;
+  font-weight: 200;
+  line-height: 4.5rem;
+  letter-spacing: 0.1rem;
+}
+
+.section {
+  margin: 7.5rem 0rem;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 3.2rem;
+  letter-spacing: 0.1rem;
+}
+
+.custom-position {
+  top: 180px;
+  right: -440px;
+}
+
+.interative-card {
+  padding: 90px;
+  width: 40rem;
+  height: auto;
+  border: none;
+  border-radius: 0%;
+
+  p {
+    padding-top: 1.5rem;
+    color: var(--color-gray);
+  }
+}
+
+.section-header {
+  margin-top: 11rem;
+}
+
+button {
+  text-transform: uppercase;
+  border-radius: 0 !important;
+  letter-spacing: .1rem;
+  padding: .5rem 2.5rem !important;
+}
+
+h2 {
+  color: white !important ;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+
+.footer-links a { 
+  color: #fff; 
+  text-decoration: none;
+} 
+
+.footer{
+  margin-top: 10.5rem;
+  padding-bottom: 1.5rem;
+  p{
+    color: #fff; 
+  }
+  .footer-logo{
+    width:2rem
+  }
+  .footer-nav-links{
+    a{
+      padding: 1.2rem;
+
+    &:first-child {
+      padding-left: 0;
+    }
+    }
+    
+  }
+  .social-links{
+    i {
+      font-size: 1.6rem;
+      padding: 0 .3rem;
+    }
+  }
+}
+
+
+
+
+
