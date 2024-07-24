@@ -8,12 +8,33 @@ const Footer = (props: Props) => {
   return (
     <div>
       <footer className="footer bg-dark">
-        <div className="custom-container">
-          <div className=" d-flex justify-content-between pt-5 px-1 ">
+        <div className="custom-container d-flex justify-content-between flex-lg-row flex-column ">
+          <div className="pt-5 ">
             <a href="#">
-              <Image className="col-xl-9" src={logo} alt="logo" />
+              <Image className="col-lg-4 col-sm-5" src={logo} alt="logo" />
             </a>
-            <ul className="list-inline social-links footer-links">
+            <div className="footer-links">
+              <ul className="list-inline footer-nav-links ms-auto mt-lg-3">
+                <li className="list-inline-item">
+                  <a href="#">About</a>
+                </li>
+                <li className="list-inline-item">
+                  <a href="#">Careers</a>
+                </li>
+                <li className="list-inline-item">
+                  <a href="#">Events</a>
+                </li>
+                <li className="list-inline-item">
+                  <a href="#">Products</a>
+                </li>
+                <li className="list-inline-item">
+                  <a href="#">Support</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="pt-5">
+            <ul className="list-inline social-links footer-links text-lg-end">
               <li className="list-inline-item ">
                 <a href="#">
                   <i className="fa fa-facebook-square " aria-hidden="true"></i>
@@ -35,27 +56,6 @@ const Footer = (props: Props) => {
                 </a>
               </li>
             </ul>
-          </div>
-          <div className="d-flex justify-content-between pt-1 px-1">
-            <div>
-              <ul className="list-inline footer-links footer-nav-links ms-auto ">
-                <li className="list-inline-item">
-                  <a href="#">About</a>
-                </li>
-                <li className="list-inline-item">
-                  <a href="#">Careers</a>
-                </li>
-                <li className="list-inline-item">
-                  <a href="#">Events</a>
-                </li>
-                <li className="list-inline-item">
-                  <a href="#">Products</a>
-                </li>
-                <li className="list-inline-item">
-                  <a href="#">Support</a>
-                </li>
-              </ul>
-            </div>
             <div>
               <p>© 2024 loopstudios. All rights reserved.</p>
             </div>

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import logo from "../../public/images/logo.svg";
+import hamburger from "../../public/images/icon-hamburger.svg"
 import Image from "next/image";
 
 type Props = {};
@@ -14,7 +15,7 @@ const Hero = (props: Props) => {
               <Image src={logo} alt="logo" />
             </a>
             <button
-              className="navbar-toggler"
+              className="navbar-toggler navbar-dark border-0"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarNav"
@@ -22,7 +23,7 @@ const Hero = (props: Props) => {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span className="navbar-toggler-icon"></span>
+              <Image alt="hamburger" src={hamburger} />
             </button>
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav ms-auto gap-2">
