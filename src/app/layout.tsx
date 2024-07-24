@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Inter, Alata, Josefin_Sans } from "next/font/google";
-import "bootstrap/dist/css/bootstrap.min.css";
 import "./globals.scss";
 import "font-awesome/css/font-awesome.min.css";
 
