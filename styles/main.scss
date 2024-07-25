@@ -159,6 +159,38 @@ h2 {
 .display {
   visibility: block;
 }
+.mobile-menu {
+  ul{
+    margin-top: 9rem;
+    font-size: 1.5rem;
+    font-weight: 100;
+
+    li {
+      line-height: 1.7rem;
+    }
+  }
+  // padding: 2rem;
+  height: 100vh;
+  background-color: black;
+  z-index:10000000;
+  box-shadow: 0 0 0 100vmax  black;
+  clip-path: inset(0 -100vmax);
+  align-items: start;
+  position: relative;
+}
+
+
+a:hover {
+  text-decoration: underline;
+  
+  text-decoration ::after {
+    content: "";
+    display: block;
+    width: 3200px;
+    padding-top: 3px;
+    border-bottom: 2px solid #f9dd94;
+  }
+}
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   .custom-container {
