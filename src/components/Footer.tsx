@@ -33,8 +33,8 @@ const Footer = (props: Props) => {
               </ul>
             </div>
           </div>
-          <div className="pt-5">
-            <ul className="list-inline social-links footer-links text-lg-end">
+          <div className="pt-5  text-lg-end">
+            <ul className="list-inline social-links footer-links">
               <li className="list-inline-item ">
                 <a href="#">
                   <i className="fa fa-facebook-square " aria-hidden="true"></i>

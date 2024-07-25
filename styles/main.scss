@@ -1,3 +1,8 @@
+$desktop:1200px; // col-xl
+$laptop:1024px; // col-lg
+$tablet:768px; // md
+$phone:425px; // sm
+
 .custom-container {
   max-width: 1440px;
   margin-right: auto;
@@ -7,7 +12,7 @@
 }
 
 .image-wrap {
-  height: 70vh;
+  height: 40.5rem;
   width: 100%;
   background-position: top;
   background-image: url("../public/images/desktop/image-hero.jpg");
@@ -28,9 +33,9 @@
   color: white;
   border: 3px solid #ddd;
   position: absolute;
-  top: 25%;
-  padding: 1.5rem 2.5rem;
-  width: 41rem;
+  top: 14rem;
+  padding: 1.8rem 2.5rem;
+  max-width: 41rem;
   font-size: 4.5rem;
   font-weight: 200;
   line-height: 4.5rem;
@@ -152,7 +157,10 @@ h2 {
 
 // }
 
-@media only screen and (min-width: 425px) and (max-width: 1440px) {
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
   .custom-container {
     max-width: 375px;
     padding-right: 5px;
@@ -180,6 +188,8 @@ h2 {
   .hero-title {
     border: 2px solid #ddd;
     padding: 1.3rem 1.4rem;
+    // max-width: 18rem;
+    // font-size: 2.3rem;
     width: 20.5rem;
     font-size: 2.5rem;
     line-height: 2.4rem;
@@ -276,8 +286,16 @@ h2 {
  
 }
 
-@media (min-width: 1440px) {
+// @media only screen and (min-width: 481px) and (max-width: 768px) {
+// }
+
+// @media only screen and (min-width: 769px) and (max-width: 1024px) {
+// }
+
+@media (min-width: 1400px) {
   .custom-container {
+    // border-color: aqua;
+    // border-style: solid;
     max-width: 1440px;
     margin-right: auto;
     margin-left: auto;

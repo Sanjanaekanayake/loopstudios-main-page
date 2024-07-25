@@ -88,9 +88,9 @@ const Body = (props: Props) => {
 
   return (
     <div className="custom-container pt-lg-5">
-       <section className="row section">
+      <section className="row section">
         <Image
-          className="col-xxl-auto  int-image"
+          className="col-auto  int-image"
           src={isMobile ? interactiveMobileImg : interactiveDesktopImg}
           alt={isMobile ? "interactiveMobileImg" : "interactiveDesktopImg"}
           // sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 100vw"
