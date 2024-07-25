@@ -90,12 +90,12 @@ const Body = (props: Props) => {
     <div className="custom-container pt-lg-5">
       <section className="row section">
         <Image
-          className="col-auto  int-image"
+          className="col-xxl-auto col-lg-7 col-md-9   int-image"
           src={isMobile ? interactiveMobileImg : interactiveDesktopImg}
           alt={isMobile ? "interactiveMobileImg" : "interactiveDesktopImg"}
           // sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 100vw"
         />
-        <div className="position-relative col-lg-auto">
+        <div className="position-relative col-auto col-xxl-auto col-lg-1">
           <div className="card interative-card custom-position">
             <h1>The leader in interactive VR</h1>
             <p>
@@ -107,8 +107,8 @@ const Body = (props: Props) => {
           </div>
         </div>
       </section>
-      <section className="section ">
-        <div className="d-lg-flex justify-content-between section-header">
+      <section>
+        <div className="d-flex justify-content-between section-header">
           <h1 className=""> Our creations</h1>
           <div className="mt-lg-2 px-lg-4 mx-lg-2 d-none d-md-block">
             <button
@@ -120,10 +120,10 @@ const Body = (props: Props) => {
           </div>
         </div>
 
-        <div className="row row-cols-md-3 row-cols-xxl-4 pt-lg-2 mt-xxl-5 mobile-creation">
+        <div className="row row-cols-auto pt-md-2 mt-5 mobile-creation">
           {imageList.map((item, index) => {
             return (
-              <div className="col p-lg-3" key={index}>
+              <div className="col p-auto my-3" key={index}>
                 <div className="card text-white border-0">
                   <Image
                     src={isMobile ? item.mobile : item.desktop}
@@ -132,7 +132,7 @@ const Body = (props: Props) => {
                     // width="320"
                     // sizes="(max-width: 425px) 1vw, (max-width: 1200px) 1vw, 1vw"
                   />
-                  <div className="card-img-overlay d-flex flex-column col-lg-10 col-8  justify-content-end px-lg-3 px-5">
+                  <div className="card-img-overlay d-flex flex-column col-lg-10 col-8  justify-content-end px-lg-3 px-md-2 px-5">
                     <h2 className="card-title bottom-50 ">{item.title}</h2>
                   </div>
                 </div>
