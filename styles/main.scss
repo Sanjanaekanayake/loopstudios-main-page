@@ -201,7 +201,7 @@ h2 {
     font-size: 2rem;
     line-height: 2.3rem;
     letter-spacing: 0.05rem;
-    text-align: center;
+    margin: auto;
   }
 
   .interative-card {
@@ -231,6 +231,7 @@ h2 {
 
   .mobile-creation {
     margin-top: 38px;
+    margin-inline: auto;
   }
 
   .card-img {
